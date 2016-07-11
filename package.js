@@ -24,7 +24,7 @@ Package.describe({
 Package.onTest(  function( api ) {
     api.use( commonDependencies );
     api.use( [
-        'practicalmeteor:mocha',
+        'dispatch:mocha-phantomjs',
         'practicalmeteor:chai'
     ] );
     api.mainModule( 'unit.tests.js' );
